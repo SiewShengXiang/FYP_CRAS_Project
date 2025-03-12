@@ -1,0 +1,52 @@
+name: fyp_cras
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  firebase_auth: ^4.19.4
+  firebase_core: ^2.30.1
+  cloud_firestore: ^4.17.2
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+  get: ^4.6.6
+  google_fonts: ^6.2.1
+  unicons: ^2.1.1
+  google_maps_flutter: ^2.6.1
+  firebase_storage: ^11.7.4
+  file_picker: ^8.0.3
+  image_picker: ^1.1.1
+  flutter_typeahead: ^5.2.0
+  searchfield: ^1.0.1
+  scrollable_clean_calendar: ^1.5.0
+  pay: ^2.0.0
+  flutter_rating_bar: ^4.0.1
+  rating_summary: ^1.0.2+1
+  pdf: ^3.10.8
+  printing: ^5.12.0
+  fl_chart: ^0.68.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+  - assets/images/City.png
+  - assets/icons/hyundai.png
+  - assets/icons/volkswagen.png
+  - assets/icons/bmw.png
+  - assets/icons/toyota.png
+  - assets/icons/UTM-LOGO-FULL.png
+  - assets/images/i30n.png
+  - assets/images/golf.png
+  - assets/images/yaris.png
+  - assets/images/SMP.jpg
+  - assets/images/default_user_icon.png
